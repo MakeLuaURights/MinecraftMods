@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "softlite",
+  "version": "1.0.0",
+  "name": "SoftLite Shaders",
+  "description": "Lightweight shader pack for low-end PCs. Installs itself for Iris on first launch. Requires Iris Shaders (and Sodium).",
+  "authors": ["SoftLite"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "preLaunch": ["dev.softlite.SoftLiteInstaller"] },
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": "1.21.11", "java": ">=21", "iris": "*" }
+}
